@@ -26,35 +26,35 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header-content">
-          <nav class="nav">
-            <a href="index.html" class="logo">
-              <span class="accent">Web</span>Studio
-            </a>
+      <div class="container header-content">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <span class="accent">Web</span>Studio
+          </a>
 
-            <ul class="site-nav">
-              <li><a href="" class="link current">Студія</a></li>
-              <li><a href="./Portfolio.html">Портфоліо</a></li>
-              <li><a href="">Контакти</a></li>
-            </ul>
-          </nav>
-          <ul class="site-contacts">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <ul class="site-nav">
+            <li><a href="" class="link current">Студія</a></li>
+            <li><a href="./Portfolio.html">Портфоліо</a></li>
+            <li><a href="">Контакти</a></li>
           </ul>
-        </div>
+        </nav>
+        <ul class="site-contacts">
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
       </div>
     </header>
     <main>
       <section class="hero">
-        <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <button type="button" class="button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+          <button type="button" class="button hero-button">Замовити послугу</button>
+        </div>
       </section>
       <section class="section">
         <div class="container">
-          <h2 hidden>Особливості</h2>
-          <ul class="Features">
+          <h2 class="visually-hidden">Особливості</h2>
+          <ul class="features">
             <li>
               <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p>
@@ -85,7 +85,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section about">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="section-img">
@@ -116,7 +116,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-command">
+      <section class="section command">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="devs">
@@ -127,8 +127,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-title">Ігор Дем'яненко</h3>
-              <p lang="en">Product Designer</p>
+              <div class="command-text">
+                <h3 class="command-title">Ігор Дем'яненко</h3>
+                <p lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="dev">
               <img
@@ -137,8 +139,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-title">Ольга Рєпіна</h3>
-              <p lang="en">Frontend Developer</p>
+              <div class="command-text">
+                <h3 class="command-title">Ольга Рєпіна</h3>
+                <p lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="dev">
               <img
@@ -147,8 +151,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-title">Микола Тарасов</h3>
-              <p lang="en">Marketing</p>
+              <div class="command-text">
+                <h3 class="command-title">Микола Тарасов</h3>
+                <p lang="en">Marketing</p>
+              </div>
             </li>
             <li class="dev">
               <img
@@ -157,28 +163,28 @@
                 width="270"
                 height="260"
               />
-              <h3 class="command-title">Михайло Єрмаков</h3>
-              <p lang="en">UI Designer</p>
+              <div class="command-text">
+                <h3 class="command-title">Михайло Єрмаков</h3>
+                <p lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <a href="index.html" class="logo">
-            <span class="accent">Web</span>Studio
-          </a>
+      <div class="container footer-content">
+        <a href="index.html" class="logo">
+          <span class="accent">Web</span>Studio
+        </a>
 
-          <address>
-            <p class="address-text">м. Київ, пр-т Лесі Українки, 26</p>
-            <ul class="address-links">
-              <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-          </address>
-        </div>
+        <address>
+          <p class="address-text">м. Київ, пр-т Лесі Українки, 26</p>
+          <ul class="address-links">
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
